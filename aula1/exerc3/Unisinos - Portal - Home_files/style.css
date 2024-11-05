@@ -1,0 +1,42 @@
+form.dinamizeForm table {
+	border: 0px !important;
+	width: 90%;
+}
+
+form.dinamizeForm table td {
+	padding-bottom: 10px;
+	border: 0px !important;
+}
+
+form.dinamizeForm table td.tdLVM {padding: 0 0 10px 0; }
+form.dinamizeForm input[type="text"]{outline:none; width: 100%; height: 28px;}
+
+form.dinamizeForm select{width:100%; overflow:auto;}
+form.dinamizeForm select.invi-select{display:none; width:0px; height:0px; border:none;}
+form.dinamizeForm textarea{width:100%; height:80px; overflow:auto; resize:vertical;}
+form.dinamizeForm div.containerMultiple {width:100%; max-height:82px; overflow:auto; border: 1px solid #bec5cb;}
+form.dinamizeForm div.containerMultiple div{white-space: nowrap; }
+
+form.dinamizeForm * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+
+form.dinamizeForm .type_PHN_DDI_div {
+    width: 28%;
+    text-align: center;
+    margin-right: 2%!important;
+    position: relative;
+    float: left;
+}
+
+form.dinamizeForm .type_PHN_DDI {
+    text-align: center;
+}
+
+form.dinamizeForm div.field {
+    position: relative;
+}
+
+form.dinamizeForm .type_PHN_NUM_div {
+    width: 70%;
+    position: relative;
+    float: left;
+}
