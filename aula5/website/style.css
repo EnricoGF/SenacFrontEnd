@@ -1,0 +1,44 @@
+/* Style CSS - Home - index.html*/
+
+#cabecalho{
+    background-color:lightcoral;
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#conteudo{
+    background-color: lightsalmon;
+    font-size: 20px;
+}
+
+#rodape{
+    background-color: lightpink;
+    font-size: 15px;
+}
+
+.destaque{
+    background-color: lightgreen;
+}
+
+p.destaque{
+    background-color:lightseagreen;
+}
+
+div#cabecalho h1{
+    color:firebrick;
+}
+
+a:hover{
+    color: darkolivegreen;
+}
+
+a:link{ /* link não visitado */
+    color:darkgreen
+}
+/* a:visited{ 
+    color:red
+} */
+
+a:active{ /* quando ativo */
+    color:mediumslateblue;
+}
