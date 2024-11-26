@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+        <div>
+            Nome: <input type="text" maxlength="30" placeholder="Nome completo" required id="nome">
+        </div>
+
+        <div>
+            Email: <input type="email" maxlength="35" placeholder="meuemail@mail.com" required id="email">
+        </div>
+
+        <div>
+            Senha: <input type="password" maxlength="30" placeholder="Senha" required id="senha">
+        </div>
+
+        <div>
+            Dê uma nota para nosso site: <input type="number" min="0" max="10" placeholder="Nota" id="nota">
+        </div>
+
+        <div>
+            Escreva algum texto: <input type="text" maxlength="50" placeholder="Opcional" id="avaliacao">
+        </div>
+
+        <input type="submit" value="Enviar" onclick="getName()">
+
+        <div>
+            <p id="showNome"></p>
+        </div>
+
+</body>
+
+</html>
