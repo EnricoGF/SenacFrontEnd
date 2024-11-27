@@ -1,0 +1,6 @@
+Por que com form não funciona corretamente e div sim? E pesquise opções para resolver esse problema da tag form.
+
+
+Com a tag form ao clicar no botão submit é atualizada a página, perdendo os dados preenchidos nos campos, já com div não é atualizada a página.
+
+Para evitar que um formulário recarregue a página (ou seja, envie o formulário sem atualizar a página), você pode usar JavaScript para lidar com o envio do formulário. Essa abordagem normalmente envolve o uso do método "event.preventDefault()", que interrompe a ação padrão do formulário.
