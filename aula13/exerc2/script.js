@@ -1,14 +1,10 @@
-function getName() {
-    let name = document.getElementById("name").value
-    document.getElementById("showNome").innerHTML = name;
-  }
+function getData() {
+  let name = document.getElementById("nome").value
+  document.getElementById("showNome").innerHTML = "Nome: "+ name
 
+  let email = document.getElementById("email").value
+  document.getElementById("showEmail").innerHTML = "Email: "+ email
 
-
-function myFunction() {
-  // Get the value of the input field with id="numb"
-  let x = document.getElementById("numb").value;
-  // If x is Not a Number or less than one or greater than 10
-  
-  document.getElementById("demo").innerHTML = x;
+  let senha = document.getElementById("senha").value
+  document.getElementById("showSenha").innerHTML = "Senha: "+ senha
 }
