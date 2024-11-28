@@ -12,17 +12,13 @@ function olaMundo() {
     newDiv.style.margin = "10px"
 
     ola.appendChild(newDiv)
-
 }
 
 
 function copyList() {
     let body = document.querySelector("body")
-
     let newDiv = document.createElement("div")
-
     let newUL = document.createElement("ul")
-
 
     for (let x = 1; x < 5; x++) {
         let newLI = document.createElement("li")
@@ -37,13 +33,9 @@ function copyList() {
 
 function createLi() {
     let body = document.querySelector("body")
-
     let newDiv = document.createElement("div")
-
     let newUL = document.createElement("ul")
-
     let newLI = document.createElement("li")
-
 
     let lis = document.getElementsByTagName("li")
     let tamanho = lis.length
@@ -55,5 +47,4 @@ function createLi() {
 
     newDiv.appendChild(newUL)
     body.appendChild(newDiv)
-
 }
