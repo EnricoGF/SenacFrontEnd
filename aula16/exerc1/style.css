@@ -1,0 +1,13 @@
+body {
+    background-color: #f9f9f9;
+    padding: 5px;
+}
+
+p, li {
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+}
