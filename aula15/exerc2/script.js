@@ -7,10 +7,6 @@ const inputSeries = document.getElementById('inputSeries');
 const addSerieButton = document.getElementById('addSerie');
 const seriesLista = document.getElementById('seriesLista');
 
-const inputAnimes = document.getElementById('inputAnimes');
-const addAnimeButton = document.getElementById('addAnime');
-const animesLista = document.getElementById('animesLista');
-
 // Função para adicionar um item
 function addItem(input, list) {
   const itemText = input.value.trim();
@@ -49,9 +45,7 @@ function removeItem(event, list) {
 // Adicionar eventos de clique para os botões "Adicionar"
 addFilmeButton.addEventListener('click', () => addItem(inputFilmes, filmesLista));
 addSerieButton.addEventListener('click', () => addItem(inputSeries, seriesLista));
-addAnimeButton.addEventListener('click', () => addItem(inputAnimes, animesLista));
 
 // Delegação de eventos para remover itens (uma para cada lista)
 filmesLista.addEventListener('click', (event) => removeItem(event, filmesLista));
 seriesLista.addEventListener('click', (event) => removeItem(event, seriesLista));
-animesLista.addEventListener('click', (event) => removeItem(event, animesLista));
