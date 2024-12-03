@@ -1,0 +1,20 @@
+body {
+    background-color: lightgoldenrodyellow;
+    color: chocolate;
+    font-size: 12pt;
+}
+
+h1 {
+    color: brown;
+}
+
+button {
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}

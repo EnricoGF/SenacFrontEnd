@@ -1,0 +1,25 @@
+#container-pai {
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.container-filho {
+    padding: 20px;
+    margin: 10px;
+}
+
+#filho1 {
+    background-color: cornflowerblue;
+}
+
+#filho2 {
+    background-color: deepskyblue;
+}
+
+#filho3 {
+    background-color: dodgerblue;
+}
