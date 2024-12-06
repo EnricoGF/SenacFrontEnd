@@ -17,7 +17,3 @@ button {
     color: white;
     border-radius: 10px;
 }
-
-button:hover {
-    background-color: rgb(165, 1, 1);
-}
