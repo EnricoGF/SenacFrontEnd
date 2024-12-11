@@ -1,0 +1,7 @@
+https://developer.mozilla.org/en-US/docs/Web/CSS/:optional
+https://developer.mozilla.org/en-US/docs/Web/CSS/:empty
+https://developer.mozilla.org/en-US/docs/Web/CSS/:default
+https://developer.mozilla.org/en-US/docs/Web/CSS/:checked
+https://developer.mozilla.org/en-US/docs/Web/CSS/:blank
+
+Especificidade CSS é um tipo de “poder de escolha”, que ajuda os navegadores a decidir qual valor da propriedade CSS terá precedência e será aplicado aos elementos.

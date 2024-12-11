@@ -1,0 +1,14 @@
+body {
+    background-color: beige;
+    color: darkslateblue;
+    padding-left: 15px;
+}
+
+a {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkslateblue;
+}

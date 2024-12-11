@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: red;
+    font-size: 80px;
+}
+
+button {
+    background-color: red;
+    padding: 15px;
+    font-size: 25px;
+    color: white;
+    border-radius: 10px;
+}

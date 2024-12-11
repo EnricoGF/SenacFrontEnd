@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link id="estilo" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="titulo">Titulo</h1>
+    <p id="firstP">Primeiro paragrafo</p>
+    <p id="secondP">Segundo paragrafo</p>
+    <p id="texto">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, consequatur, asperiores veniam hic similique
+        provident vitae ea eligendi accusamus amet illo iure in esse. Ad natus cumque eum esse animi?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam alias, sapiente in veniam facere saepe
+        voluptates quidem magnam eligendi atque quo dolore, repellendus, ratione dolores cupiditate ducimus accusantium
+        aliquam laborum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti laboriosam delectus vitae deserunt officiis
+        non perferendis ab, facere, consectetur vero natus inventore aperiam earum similique explicabo at animi, vel
+        iure!
+    </p>
+    <button onclick="select()">CLIQUE</button>
+
+    <br>
+    <hr><br>
+
+    <h1>Lista Itens</h1>
+    <div class="form">
+
+        <input type="text" id="itemInput" placeholder="Digite um item" />
+        <button id="addItem">Adicionar Item</button>
+
+    </div>
+
+    <ul id="itemList"></ul>
+
+    <br>
+    <hr><br>
+
+    <h1>Listas com enumeração de index</h1>
+
+    <div id="listas"></div>
+
+    <button onclick="criarListas()">Criar Lista</button>
+
+    <br>
+    <hr><br>
+
+    <h1>Alert</h1>
+
+    <button onclick="alerta()">Alerta</button>
+
+    <p id="textAlert">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam repellendus possimus aperiam
+        doloremque qui sapiente, laborum illum fuga quasi nisi, totam rem? Officia eum facilis fuga iste minima, dolorem
+        aliquam?</p>
+
+    <br>
+    <hr><br>
+
+
+    <h1>Trocando o tema da página</h1>
+    <button onclick="mudarCSS('style.css')">Tema Claro</button>
+    <button onclick="mudarCSS('style-dark.css')">Tema Escuro</button>
+
+    <br>
+    <hr><br>
+
+    <h1>Lista div</h1>
+    <div>
+        <div>
+            <p class="lista">paragrafo1</p>
+        </div>
+        <div>
+            <p class="lista">paragrafo2</p>
+        </div>
+        <div>
+            <p class="lista">paragrafo3</p>
+        </div>
+        <div>
+            <p class="lista">paragrafo4</p>
+        </div>
+        <div>
+            <p class="lista">paragrafo5</p>
+        </div>
+        <div>
+            <p class="lista">paragrafo6</p>
+        </div>
+        <div>
+            <p class="lista">paragrafo7</p>
+        </div>
+        <div>
+            <p class="lista">paragrafo8</p>
+        </div>
+        <div>
+            <p class="lista">paragrafo9</p>
+        </div>
+        <div>
+            <p class="lista">paragrafo10</p>
+        </div>
+    </div>
+    <button onclick="mudarCor()">Mudar cor</button>
+
+    <br>
+    <hr><br>
+
+    <button onclick="toggleDivs()">Mostrar/Ocultar Divs</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

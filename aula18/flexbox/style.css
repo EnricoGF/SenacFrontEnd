@@ -1,0 +1,33 @@
+#container-pai {
+    background-color: rgb(202, 202, 202);
+    text-align: center;
+    display: flex;
+    flex-direction: row; /* Define os eixos: Row por padrão */
+    justify-content: center; /* Horizontal / Eixo Principal */
+    align-items: center; /* Vertical / Eixo Secundário*/
+    flex-wrap: wrap; /* Quebra linha quando conteudo passa da borda */
+    gap: 10px; /* Espaçamento entre os elementos filhos */
+    height: 200px;
+    padding: 10px;
+}
+
+.container-filho {
+    padding: 20px;
+}
+
+#filho1 {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+    align-self: flex-end;
+}
+
+#filho2 {
+    background-color: deepskyblue;
+    flex-grow: 3;
+}
+
+#filho3 {
+    background-color: dodgerblue;
+    flex-grow: 1;
+    align-self: flex-start;
+}

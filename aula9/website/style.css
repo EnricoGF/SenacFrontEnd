@@ -1,0 +1,195 @@
+body {
+    font-family: Candara, Verdana, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+
+#menu-principal ul li {
+    display: inline;
+}
+
+#menu-principal {
+    position: absolute;
+    top: -26px;
+    left: 380px;
+}
+
+#menu-principal a {
+    display: block;
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333333;
+    margin: 0 30px;
+}
+
+#menu-principal ul{
+    padding: 0px;
+    margin: 0px;
+    background-color: #ededed;
+    list-style: none;
+    text-align: center;
+}
+
+#menu-principal ul li a{
+    display: inline-block;
+    padding: 2px 10px;
+    background-color: #ededed;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 3px solid #ededed;
+}
+
+#menu-principal a:hover, #menu-principal a:active {
+    color: #0f599f;
+}
+
+#menu-principal a.ativo {
+    font-weight: bold;
+}
+
+/* CONTEUDO */
+
+#conteudo {
+    margin: 30px auto;
+}
+
+#conteudo-principal {
+    float: left;
+    width: 620px;
+}
+
+#conteudo-principal h1 {
+    font-size: 36px;
+    margin-bottom: 0.5em;
+}
+
+#conteudo-principal h2, #conteudo-secundario h1 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+#conteudo-secundario p {
+    font-size: 14px;
+}
+
+#conteudo-secundario {
+    float: right;
+    width: 280px;
+}
+
+/* PADRÕES E RESET */
+
+* {margin:0; padding:0;}
+ul {list-style-type: none;}
+img, fieldset {border: 0;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+
+/* ESTRUTURA */
+
+#cabecalho, #conteudo {
+    width: 1100px;
+    margin: 50 auto;
+}
+    /* rodape{ */
+#rodape {
+    width: 1500px;
+    margin: 0 auto;
+}
+
+#telefone-email {
+    float: left;
+    font-size: 16px;
+    color: #FFF;
+    margin: 12px 0;
+}
+
+#telefone-email::after, #telefone-email::before {
+    content: " ";
+    display: block;
+}
+
+#telefone-email::after {
+    clear: both;
+}
+
+#telefone-email span.ddd {
+    font-size: 0.8em;
+}
+
+#endereco {
+    float: right;
+    text-align: right;
+    color: #FFF;
+    font-size: 14px;
+    margin: 12px 0;
+}
+
+#copyright {
+    font-size: 11px;
+    color: #d9d9d9;
+    display: block;
+    padding: 1em 0;
+}
+
+#rodape-fora {
+    background: #808080;
+    position: absolute;
+    bottom: 0px;
+    height: auto;
+    width: 100%;
+}
+    /* }rodape */
+
+#cabecalho {
+    position: relative;
+}
+
+#logo {
+    padding: 10px 0;
+    display: block;
+    float: left;
+}
+
+/* ESTILOS ESPECÍFICOS DA SEÇÃO */
+
+#bd-home #conteudo-secundario {
+    background: #0f599f;
+    color: white;
+}
+
+#logo img {
+    display: block;
+}
+
+/* CLASSES DE USO GERAL */
+
+.grupo::before, .grupo::after {
+    content: " ";
+    display: block;
+}
+
+.grupo::after{
+    clear: both;
+}
+
+.conteudo {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10;
+    border: #333333 solid 1px;
+}
+
+#conteudo-secundario .conteudo {
+    border: none
+}
+
+.footer, #copyright {
+    display: inline;
+    padding: 10px;
+}

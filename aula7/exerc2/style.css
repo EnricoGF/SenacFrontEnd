@@ -1,0 +1,29 @@
+.tabela {
+    border: 1px black solid;
+    background-color: orange;
+    display:inline-block;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+table {
+    padding: 10px;
+    width: 20%;
+    margin: 10px;
+    border-collapse:collapse;
+    display: inline;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#textinho {
+    font-size: 50px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 10px;
+}

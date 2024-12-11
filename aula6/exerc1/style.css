@@ -1,0 +1,35 @@
+/* Style CSS - Home - index.html*/
+
+#cabecalho {
+    background-color: lightskyblue;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+    border: solid 4px lightblue;
+    border-radius: 45px;
+    font-size: x-large;   
+}
+
+#cabecalho::first-letter{
+    font-size: 50px;
+}
+
+#a1 {
+    background-color: darkorange;
+    border: 2px solid red;
+    padding: 15px;
+}
+
+#a2 {
+    background-color:greenyellow;
+    border: 2px solid aqua;
+    margin: 10px 150px 10px 150px;
+}
+
+#a3 {
+    padding: 10px;
+    border-top: 4px solid royalblue;
+    border-bottom: 5px dotted paleturquoise;
+    border-left: 3px solid pink;
+    border-right: 3px solid pink;
+}

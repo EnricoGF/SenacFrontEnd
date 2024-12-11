@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Enrico Forte">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <h3>Formulário de Contato</h3>
+    <form action="resultado.html" method="get">
+        <p>
+            Nome: <input type="text" name="nome" size="30">
+        </p>
+        <p>
+            Email: <input type="text" name="email" size="30">
+        </p>
+        <p>
+            Senha: <input type="password" name="senha" size="30">
+        </p>
+
+        <p>
+            <input type="checkbox" name="aceite" size="25"> Ativar proteção de senha
+        </p>
+
+        <br>
+
+        <p>Estado Civil:<br>
+            <input type="radio" name="estado" value="solteiro" checked>Solteiro<br>
+            <input type="radio" name="estado" value="casado">Casado<br>
+            <input type="radio" name="estado" value="divorciado">Divorciado<br>
+            <input type="radio" name="estado" value="viuvo">Viúvo<br>
+        </p>
+
+        <p>Estado Civil:<br>
+            <select name="estadoCivil">
+                <option value="solteiro" checked>Solteiro</option>
+                <option value="casado">Casado</option>
+                <option value="divorciado">Divorciado</option>
+                <option value="viuvo">Viúvo</option>
+            </select>
+        </p>
+
+        <p>
+            <textarea name="mensagem" rows="3" cols="15">Digite sua mensagem aqui</textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Cancelar">
+        </p>
+
+    </form>
+</body>
+
+</html>
+
